@@ -17,7 +17,7 @@ function currentLine (katzDeliLine) {
   }else{
     var lineupdate = [];
     for (x = 0; x < katzDeliLine.length; x++); {
-      var numbering = x + 1
+      var numbering = x + 1;
       lineupdate.push(`${numbering}. ${katzDeliLine[x]}`)
     }
     return `The line is currently: ${lineupdate}`
